@@ -141,30 +141,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MainWindow.ixx">
+    <ClCompile Include="MainWindow.cpp">
       <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
     </ClCompile>
-    <ClCompile Include="Application.ixx">
+    <ClCompile Include="Application.cpp">
       <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
     </ClCompile>
-    <ClCompile Include="MessageBoxShaded.ixx" />
-    <ClCompile Include="WindowUtility.ixx" />
-    <ClCompile Include="DrawingCanvasControl.ixx" />
-    <ClCompile Include="DrawableObjectAndValues.ixx" />
-    <ClCompile Include="TextTreeParser.ixx" />
-    <ClCompile Include="DrawableObject.ixx" />
-    <ClCompile Include="DrawingCanvas.ixx" />
-    <ClCompile Include="Attributes.ixx" />
-    <ClCompile Include="DWritEx.ixx" />
-    <ClCompile Include="FileHelpers.ixx" />
-    <ClCompile Include="Common.ListSubstringPrioritizer.ixx" />
-    <ClCompile Include="Common.OptionalValue.ixx" />
-    <ClCompile Include="Common.AutoResource.Windows.ixx" />
-    <ClCompile Include="Common.AutoResource.ixx" />
+    <ClCompile Include="MessageBoxShaded.cpp" />
+    <ClCompile Include="WindowUtility.cpp" />
+    <ClCompile Include="DrawingCanvasControl.cpp" />
+    <ClCompile Include="DrawableObjectAndValues.cpp" />
+    <ClCompile Include="TextTreeParser.cpp" />
+    <ClCompile Include="DrawableObject.cpp" />
+    <ClCompile Include="DrawingCanvas.cpp" />
+    <ClCompile Include="Attributes.cpp" />
+    <ClCompile Include="DWritEx.cpp" />
+    <ClCompile Include="FileHelpers.cpp" />
+    <ClCompile Include="Common.ListSubstringPrioritizer.cpp" />
+    <ClCompile Include="Common.OptionalValue.cpp" />
+    <ClCompile Include="Common.AutoResource.Windows.cpp" />
+    <ClCompile Include="Common.AutoResource.cpp" />
     <ClCompile Include="Common.cpp" />
-    <ClCompile Include="Common.String.ixx" />
-    <ClCompile Include="Common.ArrayRef.ixx" />
-    <ClCompile Include="Common.Variant.ixx" />
+    <ClCompile Include="Common.String.cpp" />
+    <ClCompile Include="Common.ArrayRef.cpp" />
+    <ClCompile Include="Common.Variant.cpp" />
     <ClCompile Include="precomp.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
@@ -207,7 +207,7 @@
     <Image Include="MainWindow.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Common.FastVector.ixx">
+    <ClCompile Include="Common.FastVector.cpp">
       <FileType>Document</FileType>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>

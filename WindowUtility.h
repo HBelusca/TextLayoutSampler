@@ -275,3 +275,12 @@ int32_t ListViewRemapLparamToIndex(
     );
 
 int MapScrollBarCodeToPosition(HWND hwnd, int barType, UINT code, int smallStep, _Out_ int& delta);
+
+static const int DPI_100 = 96;
+static inline int GetDPI( HWND hwnd )
+{
+   HDC windowDC = GetDC( hwnd );
+   int dpi = GetDeviceCaps( windowDC, LOGPIXELSY );
+   ReleaseDC( hwnd, windowDC );
+   return dpi;
+}
